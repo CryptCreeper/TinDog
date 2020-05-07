@@ -1,0 +1,182 @@
+/* All Sections */
+
+/* General */
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* Sections */
+.coloured-section {
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+.white-section {
+  background-color: #ffffff;
+}
+
+/* Title Section */
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Nav Bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+/* Title */
+.iphone-img {
+  position: absolute;
+  right: 30%;
+  transform: rotate(25deg);
+  width: 60%;
+}
+
+/* @Media Queries - Title Section */
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.features-boxes {
+  padding: 5%;
+}
+
+.features-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.features-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-images {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-cards {
+  padding: 3% 2%;
+}
+
+.pricing-header {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* Call to Action Section */
+
+/* Footer Section */
+
+.footer-links {
+  color: #ef8172;
+  margin: 20px 10px;
+}
+
+.footer-links:hover {
+  color: #ff4c68;
+}
